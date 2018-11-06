@@ -24,7 +24,7 @@
     "wintersmith": "2.x"
   },
   "scripts": {
-    "postinstall": "npm run prepublishOnly"
+    "postinstall": "npm run prepublishOnly",
     "test": "./node_modules/.bin/vows test/* --spec",
     "prepublishOnly": "coffee -o ./lib -b -c ./src"
   },
