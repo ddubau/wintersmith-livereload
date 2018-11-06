@@ -10,6 +10,7 @@
     "livereload"
   ],
   "files": [
+    "src/*",
     "lib/*",
     "livereload.js"
   ],
