@@ -24,8 +24,9 @@
     "wintersmith": "2.x"
   },
   "scripts": {
+    "postinstall": "npm run prepublishOnly"
     "test": "./node_modules/.bin/vows test/* --spec",
-    "prepublish": "coffee -o ./lib -b -c ./src"
+    "prepublishOnly": "coffee -o ./lib -b -c ./src"
   },
   "repository": "https://github.com/jnordberg/wintersmith-livereload.git"
 }
